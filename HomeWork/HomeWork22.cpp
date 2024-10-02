@@ -6,7 +6,6 @@
 
 using namespace std;
 
-// Custom exceptions
 class FileNotFoundException : public runtime_error {
 public:
     FileNotFoundException(const string& message) : runtime_error(message) {}
